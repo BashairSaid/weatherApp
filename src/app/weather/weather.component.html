@@ -1,0 +1,58 @@
+<div class="mycontainer">
+  <div class="weather">
+    <div class="search">
+      <input type="text" name="city"  placeholder="Enter City Name " [(ngModel)]="city">
+        <button><img src="/assets/search.png" alt="search" ></button>
+    </div>
+    <br> <br>
+    <div>
+    <p><img src="{{iconURL}}"  alt="weather image"></p>
+    </div>
+    <hr>
+    
+    <p>Summary :     {{summary}}</p>
+    
+      <p> <i class='fas fa-temperature-high'></i> Temperature : {{temperature}}  °f</p>
+
+    
+      <p>Feels like  : {{feelslikeTemp}}  °f</p>
+      <p>Pressure :      {{pressure}} °hpa</p>
+      <p>Humidity :   {{humidity}} % </p>
+
+
+    
+
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
